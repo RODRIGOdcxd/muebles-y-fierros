@@ -1,0 +1,78 @@
+main{
+}
+.divPortada{
+  position: relative;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  height: 100vh;
+}
+.silla, .terraza{
+  width: 100%;
+  height: 100vh;
+}
+.terraza{
+  display: none;
+}
+@keyframes deslizar {
+  from{
+    transform: translateX(0%);
+    display: block;
+  }
+  to{
+    transform: translateX(-100%);
+    display: none;
+  }
+}
+.imgPortadaSilla.active{
+  animation: deslizar 1s ease;
+}
+.imgPortadaTerraza.active{
+  animation: deslizar 1s ease;
+  animation-direction: reverse;
+}
+.divTextoPortada{
+  position: absolute;
+  top: 0%;
+  height: 100vh;
+  width: 20%;
+  background-color: #3A5159;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.divContenedorSpan{
+  display: flex;
+  flex-direction: column;
+}
+.divContenedorSpan > span:nth-child(1){
+  color: #0CB7F2;
+  font-size: 3.5vh;
+  padding-left: 0.5rem;
+}
+.divContenedorSpan > span:nth-child(2){
+  color: #FBE47E;
+  font-size: 5.5vh;
+  text-align: right;
+  padding-right: 0.5rem;
+}
+.divContenedorSpan > span:nth-child(3){
+  color: #0CB7F2;
+  font-size: 3vh;
+  padding-left: 0.5rem; 
+}
+.divContenedorSpan > span:nth-child(4){
+  color: #FBE47E;
+  font-size: 4vh;
+  text-align: right;
+  padding-right: 0.5rem;
+}
+.buttonDerecha{
+  position: absolute;
+  left: 95%;
+  top: 50%;
+  transform: translate(-50%, -5%);
+  cursor: pointer;
+  transition: transform 1s cubic-bezier(0.175, 0.885, 0.32, 1.275);;
+}
+.buttonDerecha:hover {
+  transform: scale(1.5); /* Agrandar el botón al hacer hover */
+}

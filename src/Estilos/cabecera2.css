@@ -1,0 +1,64 @@
+header{
+  position: absolute;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  top: 5%;
+  background-color: transparent;
+  transition: top 0.3s, background-color 0.5s;
+  z-index: 1;
+}
+.cabecera{
+    display: inline-flex;
+    background-color: #ffffff;
+    border-radius: 10px;
+}
+.logo{
+    padding: 0.3rem 1.5rem;
+    text-align: center;
+    margin-right: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    & span{
+        color: black;
+        font-size: 2vh;
+    }
+}
+.menu{
+    & ul{
+        display: flex;
+        height: 100%;
+        & li{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100%;
+            list-style: none;
+            padding: 0 2vw;
+            color: black;
+            font-size: 2vh;
+            transition: background-color 0.5s, color 0.5s;
+        }
+        & li:nth-child(3){
+          border-radius: 0 10px 10px 0;
+        }
+        & li:hover{
+            background-color: #3A5159;
+            color: white;
+        }
+    }
+}
+.imgLogo{
+  width: 5vw;
+}
+.divButtonContacto > span:nth-child(1){
+  font-size: 2.5vh;
+  font-weight: bold;
+}
+.divButtonContacto > span:nth-child(2){
+  font-size: 1.9vh;
+  font-weight: bold;
+}

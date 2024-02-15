@@ -1,0 +1,96 @@
+main{
+    position: absolute;
+    top: 0;
+    z-index: 0;
+    width: 100%;
+}
+.div-portada{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+}
+.img-portada{
+    width: 100%;
+    height: 100%;
+    filter: brightness(100%);
+}
+.div-texto-portada{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.span-texto-portada{
+    color: white;
+    font-size: 5vh;
+    white-space: nowrap;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 1rem 0;
+}
+.div-botones-portada{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.div-historia{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: #efc2b3;
+    height: 100vh;
+    font-family: prompt,sans-serif;
+    & .span-titulo{
+        text-transform: uppercase;
+        font-size: 4vh;
+        font-weight: bold;
+        margin-bottom: 1em;
+        color: white;
+    }
+    & .span-biografia{
+        text-transform: uppercase;
+        width: 58.3vw;
+        font-size: 2vh;
+        text-align: justify;
+        line-height: 1.6;
+        border-radius: 5px;
+        color: #202454;
+    }
+}
+.div-separador{
+    display: flex;
+    flex-wrap: wrap;
+    font-family: prompt,sans-serif;
+}
+.sep{
+    width: 50%;
+}
+.div-restaurante{
+    height: 200vh;
+    background-color: #202454;
+    position: relative;
+    & .div-texto-img{
+        position: absolute;
+        top: 15%;
+        left: 100%;
+        transform: translate(-103.5%);
+        text-align: right;
+        & .img-mueble-restaurante{
+            width: 30vw;
+            border: 2px white;
+            border-style: dashed;
+            
+        }
+        & .span-restaurante{
+            color: white;
+            font-size: 4vh;
+            text-decoration: underline;
+        }
+    }
+}

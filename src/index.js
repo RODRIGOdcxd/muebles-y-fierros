@@ -1,13 +1,18 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
 import reportWebVitals from './reportWebVitals';
+//import Cabecera from './Componentes/cabecera'
+//import Main from './Componentes/main'
+import Cabecera2 from './Componentes/cabecera2'
+import Main2 from './Componentes/main2'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    {/* <Cabecera />
+    <Main /> */}
+    <Cabecera2 />
+    <Main2 />
   </React.StrictMode>
 );
 
