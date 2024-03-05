@@ -1,0 +1,11 @@
+[33mcommit 82f2e9e09b68f921fa6a720c0825c848d4f6ccf9[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m)[m
+Author: Rodrigo <diazrodrigodc@gmail.com>
+Date:   Thu Feb 15 15:39:11 2024 -0500
+
+    PRIMER COMMIT
+
+[33mcommit 61e908a886a315d7168982a175e82380d0e6fe79[m
+Author: Rodrigo <diazrodrigodc@gmail.com>
+Date:   Sun Feb 11 16:25:48 2024 -0500
+
+    Initialize project using Create React App

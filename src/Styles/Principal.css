@@ -1,0 +1,124 @@
+nav {
+  height: 100vh;
+  background-image: url(../ImgTs/pexels-sherman-trotz-19568105.jpg);
+  background-position: center;
+  background-size: cover;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  margin-bottom: 15vh;
+}
+.aTextoPortada {
+  display: block;
+  height: 100%;
+  position: relative;
+}
+.divTextoPortada {
+  display: flex;
+  flex-direction: column;
+  color: orange;
+  position: absolute;
+  top: 15%;
+  left: 5%;
+}
+.divTextoPortada span:nth-child(1) {
+  font-size: 2.5vw;
+}
+.divTextoPortada span:nth-child(2) {
+  font-size: 6vw;
+  font-weight: bold;
+}
+.divTextoPortada a {
+  font-size: 2.5vw;
+  text-decoration: underline;
+  color: orange;
+}
+/*Article*/
+.articlePrincipal {
+  display: flex;
+  flex-direction: column;
+  padding: 0 6vw;
+  font-family: "Segoe UI", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.divPanel {
+  margin-bottom: 5vh;
+}
+.divCabeza {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 5vh;
+}
+.divTexto {
+  width: 50%;
+  display: flex;
+  align-items: center;
+}
+.divTexto:nth-child(2) {
+  justify-content: right;
+}
+.divTexto span {
+  font-size: 1.8vw;
+  font-weight: bold;
+}
+.ulTextoMenu {
+  display: flex;
+  justify-content: right;
+}
+.liTextoMenu {
+  list-style: none;
+  margin-left: 1.2vw;
+  color: blue;
+  font-size: 1.24vw;
+}
+.liTextoMenu > a {
+  color: blue;
+}
+.divPaneles {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.divPanelImg {
+  width: 30%;
+}
+.imgPanel {
+  width: 100%;
+}
+.divInformacion {
+  margin-top: 1vh;
+}
+.divInfo {
+  height: 4.5vh;
+  display: flex;
+}
+.divInfo:nth-child(2) {
+  height: 8vh;
+}
+.spanEtiqueta {
+  display: inline-block;
+  font-size: 1.1vw;
+  padding: 0.2em 0.7em;
+}
+.spanDescription {
+  font-size: 1.3vw;
+  line-height: 1.5;
+}
+.sectionFooter {
+  background-color: rgb(232, 232, 232);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Segoe UI", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  padding: 9vh 0;
+  margin-top: 5vh;
+}
+.sectionFooter ul {
+  display: flex;
+}
+.sectionFooter > ul > li:nth-child(1) {
+  color: black;
+}
+.sectionFooter ul li {
+  list-style: none;
+  margin-right: 1vw;
+  color: blue;
+  font-size: 1.3vw;
+}

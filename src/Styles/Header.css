@@ -1,0 +1,60 @@
+header {
+  display: flex;
+  flex-wrap: wrap;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.divLogo {
+  width: 10%;
+  display: flex;
+  justify-content: center; /* Centra horizontalmente */
+  align-items: center;
+}
+.divLogo a {
+  height: 100%;
+  width: 50%;
+  display: flex;
+}
+.imgTs {
+  width: 100%;
+}
+
+.divMenu {
+  width: 60%;
+  display: flex;
+  align-items: center;
+}
+.ulMenu {
+  display: flex;
+}
+.ulMenu li {
+  list-style: none;
+  margin-left: 2vw;
+  font-size: 1.5vw;
+}
+.ulMenu li a,
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.divLog {
+  width: 30%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.divLive,
+.divReg {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.divLive a {
+  color: blue;
+  font-size: 1.4vw;
+  font-weight: bold;
+}
+.divReg a {
+  font-size: 1.2vw;
+  font-weight: bold;
+}

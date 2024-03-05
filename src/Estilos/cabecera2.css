@@ -11,48 +11,56 @@ header{
 }
 .cabecera{
     display: inline-flex;
-    background-color: #ffffff;
-    border-radius: 10px;
+    background-color: #282434;
+    border-radius: 1vw;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    width: 50%;
 }
 .logo{
-    padding: 0.3rem 1.5rem;
-    text-align: center;
-    margin-right: 1.5rem;
+    width: 20%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    & span{
-        color: black;
-        font-size: 2vh;
-    }
+    padding: 1vh 0;
+}
+.imgLogo{
+    width: 4.2vw;
+}
+.logo > span{
+    display: block;
+    text-align: center;
+    font-size: 1vw;
+    color: white;
 }
 .menu{
+    box-sizing: border-box;
+    width: 80%;
     & ul{
         display: flex;
         height: 100%;
+        width: 100%;
+        box-sizing: border-box;
         & li{
             display: flex;
             justify-content: center;
             align-items: center;
-            height: 100%;
             list-style: none;
             padding: 0 2vw;
-            color: black;
-            font-size: 2vh;
+            color: white;
+            font-size: 1vw;
+            width: calc(100% / 3);
             transition: background-color 0.5s, color 0.5s;
         }
         & li:nth-child(3){
-          border-radius: 0 10px 10px 0;
+          border-radius: 0 1vw 1vw 0;
         }
         & li:hover{
             background-color: #3A5159;
             color: white;
         }
     }
-}
-.imgLogo{
-  width: 5vw;
 }
 .divButtonContacto > span:nth-child(1){
   font-size: 2.5vh;

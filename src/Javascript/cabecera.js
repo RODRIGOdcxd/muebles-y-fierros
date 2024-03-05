@@ -3,7 +3,7 @@ window.addEventListener('scroll',function(){
     if(this.window.scrollY > 10){
         header.style.top = '0'
         header.style.position = 'fixed'
-        header.style.backgroundColor = 'white'
+        header.style.backgroundColor = '#282434'
     }
     if(this.window.scrollY < 10){
         header.style.top = '5%'

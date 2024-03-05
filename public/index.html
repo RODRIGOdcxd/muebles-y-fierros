@@ -1,14 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <!--ICONO-->
-    <!-- <link rel="icon" href="%PUBLIC_URL%/favicon.ico" /> -->
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <!-- <meta name="description" content="Web site created using create-react-app"/> -->
-    <title>Fierros y Madera</title>
-    <style>*{margin:0;padding:0}#root{position: relative;}</style>
-  </head>
-  <body id="root">
-  </body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        *{margin:0;padding: 0;}
+        body{
+            display: flex;
+            justify-content: center;
+        }
+        html{
+            scroll-behavior: smooth;
+        }
+        @media screen and (max-width: 1700px) {
+            #root{
+                width: 100%;
+            }
+        }
+        @media screen and (min-width: 1700px) {
+            #root{
+                width: 90vw;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div id="root"></div>
+</body>
 </html>

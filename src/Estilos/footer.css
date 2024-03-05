@@ -1,0 +1,26 @@
+footer{
+  display: grid;
+  grid-template-columns: 90%;
+  justify-content: center;
+  font-family: Arial;
+}
+.lineaFooter{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 5vh;
+  & hr{
+    width: 100%;
+  }
+}
+.contenidoFooter{
+  display: grid;
+  grid-template-columns: repeat(2,50%);
+}
+.icono{
+  width: 2vw;
+}
+.copy{
+  display: flex;
+  justify-content: right;
+}
