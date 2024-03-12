@@ -1,0 +1,22 @@
+<html>
+<head>
+<meta charset="utf-8" />
+<title>Abstract</title>
+<style>
+header{
+display: flex;
+flex-wrap: wrap;
+}
+header > div{
+width: 50%;
+}
+</style>
+</head>
+<body>
+<header>
+<div>Pagina Abstract</div>
+<div>Login</div>		
+</header>
+<main></main>
+</body>
+</html>
